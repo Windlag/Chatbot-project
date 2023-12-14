@@ -16,17 +16,12 @@ components:
     data_bindings: []
     event_bindings: {show: Heading1_show}
   - name: label_1
-    properties: {text: 'Zoho SalesIQ offers your marketing, sales, and support teams
-        the digital customer engagement tools to communicate with every site visitor
-        at every stage of the customer lifecycle. This all-in-one live chat and analytics
-        platform promotes proactive customer engagement, allowing you to initiate
-        the right kind of conversation at exactly the right time.'}
+    properties: {text: 'Seoul Garden Chatbot offers a convenient, comfortable means
+        of performing basic ordering functions with minimal staff needed. With an
+        intuitive SMS-text-message style interface and intelligent AI, customers will
+        feel as if they are talking to a  real person!'}
     type: Label
     layout_properties: {grid_position: 'HFMESC,KEBKXE'}
-  - name: column_panel_1
-    properties: {}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'QXXIIO,ZUUUDW'}
   - name: spacer_1
     properties: {height: 32}
     type: Spacer
@@ -39,7 +34,9 @@ components:
     data_bindings: []
     event_bindings: {show: Heading1_show}
   - name: label_1_copy
-    properties: {text: Our chatbot is a}
+    properties: {text: 'A text-based computer program that simulates a real human
+        conversation. Seating, ordering, recommendations, payment, feedback are all
+        done from the phone at the customer''s convenience. '}
     type: Label
     layout_properties: {grid_position: 'ICIXDW,FQEGNC ZFDMVJ,OPILAZ'}
   - name: spacer_1_copy
