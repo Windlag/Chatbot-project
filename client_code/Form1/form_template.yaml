@@ -39,11 +39,7 @@ components:
     data_bindings: []
     event_bindings: {show: Heading1_show}
   - name: label_1_copy
-    properties: {text: 'Zoho SalesIQ offers your marketing, sales, and support teams
-        the digital customer engagement tools to communicate with every site visitor
-        at every stage of the customer lifecycle. This all-in-one live chat and analytics
-        platform promotes proactive customer engagement, allowing you to initiate
-        the right kind of conversation at exactly the right time.'}
+    properties: {text: Our chatbot is a}
     type: Label
     layout_properties: {grid_position: 'ICIXDW,FQEGNC ZFDMVJ,OPILAZ'}
   - name: spacer_1_copy
@@ -60,7 +56,7 @@ components:
   - name: flow_panel_1
     properties: {}
     type: FlowPanel
-    layout_properties: {grid_position: 'ICIXDW,FQEGNC SQLPYT,ZWVHKZ'}
+    layout_properties: {grid_position: 'ICIXDW,FQEGNC SQLPYT,CBRMWD'}
     components:
     - name: outlined_card_1
       properties: {role: elevated-card, background: 'theme:Primary', border: purple,
@@ -75,16 +71,27 @@ components:
         layout_properties: {grid_position: 'MSWOXD,ONOWFU'}
         data_bindings: []
         event_bindings: {show: Heading1_show}
-      - name: label_1_copy_copy
-        properties: {text: 'Customers can have their needs and inquiries addressed
-            immediately at any time of day, reducing the workload of staff.', italic: false}
-        type: Label
-        layout_properties: {grid_position: 'TPRWNR,ZYDEBQ'}
-      - name: button_1
-        properties: {text: Check it out!, icon: 'fa:arrow-circle-o-right', italic: false,
-          underline: true, icon_align: right, role: elevated-button, foreground: 'theme:Tertiary'}
-        type: Button
-        layout_properties: {grid_position: 'NNVJFQ,DBPMNE'}
+      - name: column_panel_3
+        properties: {}
+        type: ColumnPanel
+        layout_properties: {grid_position: 'QUHIHQ,VDBRPX'}
+        components:
+        - name: label_1_copy_copy
+          properties: {text: 'Customers can have their needs and inquiries addressed
+              immediately at any time of day, reducing the workload of staff.', italic: false}
+          type: Label
+          layout_properties: {grid_position: 'ICJAMC,QTWEZO'}
+        - name: spacer_2_copy
+          properties: {height: 19}
+          type: Spacer
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SFYXRY,TILXJR'}
+        - name: button_1
+          properties: {role: elevated-button, foreground: 'theme:On Primary', text: '',
+            spacing_above: none, icon_align: top, spacing_below: none, italic: false,
+            background: '#f79545', underline: false, icon: 'fa:arrow-circle-o-right'}
+          type: Button
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SDZOEI,KZHRNS'}
+          event_bindings: {click: button_1_click}
     - name: outlined_card_1_copy_3_copy
       properties: {role: elevated-card, background: 'theme:Secondary', border: '',
         foreground: 'theme:On Primary'}
@@ -97,16 +104,32 @@ components:
         layout_properties: {grid_position: 'ARQQTC,QOUXUL'}
         data_bindings: []
         event_bindings: {show: Heading1_show}
-      - name: label_1_copy_copy_copy_3_copy
-        properties: {text: AI-generated recommendations based on previous data will encourage customers to buy the best meals!,
-          italic: false}
-        type: Label
-        layout_properties: {grid_position: 'TPRWNR,ZYDEBQ'}
+      - name: column_panel_3_copy_2
+        properties: {}
+        type: ColumnPanel
+        layout_properties: {grid_position: 'TPRWNR,TLWQFJ'}
+        components:
+        - name: label_1_copy_copy_copy_2
+          properties: {text: AI-generated recommendations based on previous data will encourage customers to buy the best meals!,
+            italic: false}
+          type: Label
+          layout_properties: {grid_position: 'ICJAMC,QTWEZO'}
+        - name: spacer_2_copy_copy_2
+          properties: {height: 19}
+          type: Spacer
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SFYXRY,TILXJR'}
+        - name: button_1_copy_2
+          properties: {role: elevated-button, foreground: 'theme:On Secondary Container',
+            text: '', spacing_above: none, icon_align: top, spacing_below: none, italic: false,
+            background: 'theme:Primary Container', underline: false, icon: 'fa:arrow-circle-o-right'}
+          type: Button
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SDZOEI,KZHRNS'}
+      layout_properties: {width: 677.333251953125}
     - name: outlined_card_1_copy_3
       properties: {role: elevated-card, background: 'theme:Tertiary', border: '',
         foreground: 'theme:On Primary'}
       type: ColumnPanel
-      layout_properties: {width: 675.3333129882812}
+      layout_properties: {width: 678.9996259765625}
       components:
       - name: Heading1_copy_copy_2_copy_3
         properties: {align: left, tooltip: '', text: Easy Reservations, font_size: 20,
@@ -115,11 +138,26 @@ components:
         layout_properties: {grid_position: 'ARQQTC,QOUXUL'}
         data_bindings: []
         event_bindings: {show: Heading1_show}
-      - name: label_1_copy_copy_copy_3
-        properties: {text: 'Customers can make reservations hassle-free 24/7, with
-            minimal manual work needed!', italic: false}
-        type: Label
-        layout_properties: {grid_position: 'TPRWNR,ZYDEBQ'}
+      - name: column_panel_3_copy_2_copy
+        properties: {}
+        type: ColumnPanel
+        layout_properties: {grid_position: 'TPRWNR,TYDQHC'}
+        components:
+        - name: label_1_copy_copy_copy_2_copy
+          properties: {text: 'Customers can make reservations hassle-free 24/7, with
+              minimal manual work needed!', italic: false}
+          type: Label
+          layout_properties: {grid_position: 'ICJAMC,QTWEZO'}
+        - name: spacer_2_copy_copy_2_copy
+          properties: {height: 8.6666259765625}
+          type: Spacer
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SFYXRY,TILXJR'}
+        - name: button_1_copy_2_copy
+          properties: {role: elevated-button, foreground: 'theme:Tertiary', text: '',
+            spacing_above: none, icon_align: top, spacing_below: none, italic: false,
+            background: 'theme:On Primary', underline: false, icon: 'fa:arrow-circle-o-right'}
+          type: Button
+          layout_properties: {grid_position: 'ICJAMC,HZYJHD SDZOEI,KZHRNS'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
@@ -128,7 +166,11 @@ components:
   properties: {}
   type: ColumnPanel
   layout_properties: {slot: left-nav}
-  components: []
+  components:
+  - name: button_2
+    properties: {text: Home, role: tonal-button}
+    type: Button
+    layout_properties: {grid_position: 'YISRKU,NKQISC'}
 - name: label_2
   properties: {text: SEOUL GARDEN CHATBOT, bold: true, align: left, foreground: 'theme:Error',
     role: title, background: '#f7f976', border: ''}
